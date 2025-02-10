@@ -1,0 +1,19 @@
+.icon-icons {
+  display: inline-block;
+  width: 28px;
+  height: 29px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: black;
+}
+
+.icon-circle {
+  height: 36px;
+  width: 36px;
+}
+
+.icon-close {
+  color: white;
+  height: 28px;
+  width: 28px;
+}

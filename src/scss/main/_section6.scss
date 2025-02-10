@@ -1,0 +1,58 @@
+.div-main-general-section-information-platform {
+    display: flex;
+    justify-content: end;
+    gap: 170px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    &__osnova-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__osnova-content-text {
+        width: 300px;
+    }
+}
+
+.posishion-section6-main {
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width:1383px) {
+    .part-img-section-information-platform {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .part-img-section-information-platform {
+        width: 354px;
+        height: 297px;
+    }
+
+    .div-main-general-section-information-platform {
+        gap: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .part-img-section-information-platform {
+        width: 200px;
+        height: 207px;
+    }
+
+    .div-main-general-section-information-platform__osnova-content-text {
+        width: 180px;
+    }
+
+    .div-main-general-section-information-platform__content {
+        gap: 30px;
+    }
+}

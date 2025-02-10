@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "стіл код2",
+			"path": ".."
+		},
+		{
+			"name": "scss",
+			"path": "../../стіл код/scss"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "стіл код2",
+		"liveServer.settings.port": 5501
+	}
+}
