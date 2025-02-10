@@ -1,0 +1,135 @@
+.div-main-general-section-end {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 170px 0px;
+
+    &__div-text {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    &__osnova-content {
+        display: flex;
+        flex-direction: column;
+        gap: 53px;
+    }
+
+    &__button {
+        background-color: black;
+        border: 1px solid red;
+        color: white;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        padding: 22px 229px;
+        margin: 33px 0px 0px;
+    }
+
+    &__div-input-input-start {
+        background-color: black;
+        color: white;
+        border: 0px;
+        border-bottom: 2px solid rgb(17, 17, 17);
+        padding: 0px 277px 17px 0px;
+    }
+
+    &__div-input-input-end {
+        background-color: black;
+        color: white;
+        border: 0px;
+        border-bottom: 2px solid rgb(17, 17, 17);
+        padding: 0px 192px 97px 0px;
+    }
+
+    &__div-input {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+        width: 510px;
+    }
+
+    &__div-galochka-link {
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: underline;
+        padding: 4px 0px 0px 10px;
+        font-size: 18px;
+    }
+
+    &__div-galochka-flex-link {
+        display: flex;
+        gap: 2px;
+    }
+
+    &__div-text-h-midlle {
+        width: 370px;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    border: 0px;
+}
+
+.span-user-privasy {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.user-privacy:checked + .modal-label > .span-user-privasy {
+    background-color: white;
+}
+
+.modal-label-flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 1024px) {
+    .div-main-general-section-end {
+        flex-direction: column;
+        gap: 52px;
+        padding: 100px 45px 100px 45px;
+    }
+
+    .div-main-general-section-end__div-input {
+        gap: 32px;
+        width: 646px;
+    }
+
+    .div-main-general-section-end__div-text {
+        gap: 32px;
+    }
+
+    .div-main-general-section-end__div-input-input-end {
+        padding: 0px 192px 60px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .div-main-general-section-end__div-input {
+        width: 470px;
+    }
+
+    .div-main-general-section-end {
+        padding: 100px 0px;
+    }
+
+    .div-main-general-section-end__div-galochka-flex-link-text {
+        font-size: 18px;
+    }
+
+    .div-main-general-section-end__button {
+        padding: 22px 200px;
+    }
+}

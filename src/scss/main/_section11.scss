@@ -1,0 +1,51 @@
+.div-main-general-section-question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__div-text {
+        display: flex;
+        justify-content: space-between;
+        width: 726px;
+        padding: 0px 0px 24px;
+        border-bottom: 2px solid rgb(36, 34, 34);
+    }
+
+    &__button {
+        color: white;
+        border-radius: 100%;
+        border: 0px;
+        padding: 11px 18px 11px 18px;
+        background-color: rgb(50, 45, 45);
+    }
+
+    &__osnova-content {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    &__title {
+        padding: 0px 0px 50px;
+    }
+}
+
+
+.div-main-general-section-question {
+    padding: 100px 0px 0px;
+}
+
+.section-question-center {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .div-main-general-section-question__div-text-title {
+        font-size: 12px;
+    }
+
+    .div-main-general-section-question__div-text {
+        width: 400px;
+    }
+}

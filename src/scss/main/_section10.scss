@@ -1,0 +1,132 @@
+.div-main-general-section-video {
+    display: flex;
+    gap: 150px;
+
+    &__div-content {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    &__div-content-text {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__div-content-text-text {
+        width: 240px;
+    }
+
+    &__div-content-text-link {
+        color: #DF3D3A;
+        font-size: 28px;
+        display: flex;
+    }
+
+    &__div-content-div-link-link {
+        color: #DF3D3A;
+    }
+
+    &__video-end {
+        max-width: 1220px;
+        height: 540px;
+    }
+
+    &__video-middle {
+        max-width: 1220px;
+        height: 540px;
+    }
+
+    &__video-start {
+        width: 920;
+        height: 540px;
+    }
+
+    &__div-content-title-top {
+        display: none;
+    }
+}
+
+.active {
+    display: block;
+}
+
+.swiper-button-section-video {
+    display: flex;
+    gap: 12px;
+}
+
+.swiper-width {
+    max-width: 920px;
+}
+
+@media (max-width:1024px) {
+    .div-main-general-section-video {
+        display: block;
+    }
+
+    .div-main-general-section-video__div-content-text-text {
+        width: 360px;
+    }
+
+    .swiper-button-section-video {
+        gap: 39px;
+    }
+
+    .div-main-general-section-video__video-middle {
+        max-width: 648px;
+    }
+
+    .div-main-general-section-video__video-start {
+        max-width: 648px;
+    }
+
+    .div-main-general-section-video__video-end {
+        max-width: 648px;
+    }
+
+    .swiper-width {
+        max-width: 1024px;
+        height: 580px;
+    }
+
+    .div-main-general-section-video__div-content {
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .div-main-general-section-video__div-content-title-top {
+        display: block;
+        padding: 0px 0px 32px 60px;
+    }
+
+    .div-main-general-section-video__div-content-title {
+        display: none;
+    }
+
+    .div-main-general-section-video__video-middle,
+    .div-main-general-section-video__video-start,
+    .div-main-general-section-video__video-end {
+        max-width: 648px;
+        max-width: 440px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .div-main-general-section-video__video-middle,
+    .div-main-general-section-video__video-start,
+    .div-main-general-section-video__video-end {
+        max-width: 440px;
+        margin: 0 auto;
+    }
+
+    .div-main-general-section-video__div-content-text-text {
+        width: 400px;
+    }
+
+    .div-main-general-section-video__div-content {
+        width: 440px;
+    }
+}

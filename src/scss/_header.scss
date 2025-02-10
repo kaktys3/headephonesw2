@@ -1,0 +1,87 @@
+.nav {
+    display: flex;
+    gap: 77px;
+
+    &__link {
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.div-header-general-start {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 66px 0px 71px;
+    width: 1280px;
+}
+
+header {
+    background-color: black;
+}
+
+.container-pozishin-header {
+    display: flex;
+    justify-content: center;
+}
+
+.div-header-general-modal-button-start {
+    display: none;
+}
+
+.div-header-general-modal-button-end {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        flex-direction: column;
+        gap: 24px;
+        display: none;
+    }
+
+    .div-header-general-modal-button-start {
+        display: block;
+        background-color: black;
+        border: 0px;
+    }
+
+    .div-header-general-modal-button-end {
+        display: none;
+        background-color: black;
+        border: 0px;
+    }
+
+    .div-header-general-end {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 43px 0px 52px;
+        width: 786px;
+    }
+
+    .div-header-general-start {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: column;
+        padding: 0px 45px 51px;
+        width: 1280px;
+    }
+}
+
+@media (max-width: 768px) {
+    .div-header-general-end {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 43px 0px 52px;
+        width: 480px;
+    }
+}
+
+.div-header-general-modal-button-img {
+    background-color: black;
+    border: 0px;
+}

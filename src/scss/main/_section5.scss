@@ -1,0 +1,33 @@
+.div-main-general-section-text {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 0px 170px 0px;
+
+    &__div-text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 430px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .div-main-general-section-text__div-text {
+        width: 294px;
+    }
+
+    .div-main-general-section-functionality {
+        align-items: start;
+        padding: 170px 0px 170px 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    .div-main-general-section-text__div-text {
+        width: 204px;
+    }
+}    .div-main-general-section-functionality {
+    align-items: start;
+    padding: 170px 0px 170px 45px;
+}

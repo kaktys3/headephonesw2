@@ -1,23 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style-svg.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-pozishin-header">
+            <div class="div-header-general-start">
+                <div class="div-header-general-end">
+                    <span><img src="./img/bose-logo.png" alt=""></span>
+                    <button class="div-header-general-modal-button-start"><svg class="icon icon-circle">
+                            <use xlink:href="./img/sprite.svg#icon-circle"></use>
+                        </svg></button>
+                        <button class="div-header-general-modal-button-end"><svg class="icon icon-close"><use xlink:href="/img/sprite.svg#icon-close"></use></svg></button>
+                </div>
+                <nav class="nav">
+                    <a href="" class="nav__link">Characteristics</a>
+                    <a href="" class="nav__link">History</a>
+                    <a href="" class="nav__link">Reviews</a>
+                    <a href="" class="nav__link">Payment and delivery</a>
+                </nav>
+            </div>
+        </div>
+        <h1></h1>
+    </header>
     <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+        <section class="section-order">
+            <div class="div-main-general-section-order">
+                <div class="div-main-general-section-order__container">
+                    <div class="div-main-general-section-order__div-text">
+                        <p class="div-main-general-section-order__div-text-text-start">Noise cancellation headphones
+                            that are
+                            capable for a lot of things</p>
+                        <p class="div-main-general-section-order__div-text-text-end">Up to 20 hours of playback</p>
+                    </div>
+                    <div class="div-main-general-section-order__div-text-and-button">
+                        <h1>Headphones Bose NC 700</h1>
+                        <span><button
+                                class="div-main-general-section-order__div-text-and-button-button">order</button></span>
+                    </div>
+                </div>
+                <img class="part-img-section-order" src="./img/img-goup.png" alt="">
+            </div>
+        </section>
+        <section class="section-description">
+            <div class="div-main-general-section-description">
+                <img class="part-img-section-description" src="./img/woomen-x.png" alt="">
+                <div class="div-main-general-section-description__div-text">
+                    <h2 class="div-main-general-section-description__div-text-title">Premium design and comfort</h2>
+                    <div class="div-main-general-section-description__div-text-osnova">
+                        <div class="div-main-general-section-description__div-text-top-half">
+                            <h4>11 levels of noise reduction</h4>
+                            <p>With the new Bose Noise Canceling Headphone 700, you can smoothly increase or decrease
+                                the level of noise cancellation. You can be heard perfectly and you hear the
+                                interlocutor clearly, even in a noisy environment!</p>
+                        </div>
+                        <div class="div-main-general-section-description__div-text-bottom-half">
+                            <h4>Comfort up to max level</h4>
+                            <p>Stylish, lightweight stainless steel headband with soft, angled cups of headphones for
+                                comfortable seating. The inner side is made of soft gel lining that fits well to the
+                                head.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-functionality">
+            <div class="container">
+                <div class="div-main-general-section-functionality">
+                    <h2 class="div-main-general-section-functionality__title">capable of so much</h2>
+                    <div class="div-main-general-section-functionality__div-content">
+                        <div class="div-main-general-section-functionality__div-content-text-left">
+                            <div class="div-main-general-section-functionality__div-content-text-left-half">
+                                <img class="div-main-general-section-functionality__div-content-text-left-half-img"
+                                    src="./img/Ellipse.png" alt="">
+                                <p>Ability to receive calls</p>
+                            </div>
+                            <div class="div-main-general-section-functionality__div-content-text-left-half">
+                                <img class="div-main-general-section-functionality__div-content-text-left-half-img"
+                                    src="./img/Ellipse.png" alt="">
+                                <p>Rich and powerful sound</p>
+                            </div>
+                            <div class="div-main-general-section-functionality__div-content-text-left-half">
+                                <img class="div-main-general-section-functionality__div-content-text-left-half-img"
+                                    src="./img/Ellipse.png" alt="">
+                                <p>Active noise cancellation option</p>
+                            </div>
+                        </div>
+                        <div class="div-main-general-section-functionality__div-content-text-right">
+                            <div class="div-main-general-section-functionality__div-content-text-left-half">
+                                <img class="div-main-general-section-functionality__div-content-text-left-half-img"
+                                    src="./img/Ellipse.png" alt="">
+                                <p>Unsurpassed microphone system</p>
+                            </div>
+                            <div class="div-main-general-section-functionality__div-content-text-left-half">
+                                <img class="div-main-general-section-functionality__div-content-text-left-half-img"
+                                    src="./img/Ellipse.png" alt="">
+                                <p>Support of voice assistants</p>
+                            </div>
+                            <div class="div-main-general-section-functionality__div-content-text-left-half">
+                                <img class="div-main-general-section-functionality__div-content-text-left-half-img"
+                                    src="./img/Ellipse.png" alt="">
+                                <p>Bose AR Augmented Reality Audio Platform</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-img">
+            <div class="div-main-general-section-img">
+                <h2 class="div-main-general-section-img__title">The luxury of silence</h2>
+                <img class="div-main-general-section-img__img" src="./img/image-morning.png" alt="">
+            </div>
+        </section>
+        <section class="section-text">
+            <div class="container">
+                <div class="div-main-general-section-text">
+                    <div class="div-main-general-section-text__div-text">
+                        <h4 class="div-main-general-section-text__div-text">Maximum enjoyment</h4>
+                        <p class="div-main-general-section-text__div-text-text">In order to create a comfortable
+                            atmosphere
+                            - raise
+                            the level by level from the "transparent" mode to the maximum blocking of sounds. The
+                            conversation mode can be activated in one click using a special button.</p>
+                    </div>
+                    <div class="div-main-general-section-text__div-text">
+                        <h4 class="div-main-general-section-text__div-text">Crystal sound</h4>
+                        <p class="div-main-general-section-text__div-text-text">The speaker system and brand name active
+                            equalizer are able to provide high-quality and powerful sound at any volume level. You can
+                            be sure of no distortion and crystal clear at high and low frequencies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-information-platform">
+            <div class="container-fluid posishion-section-information-platform-main">
+                <div class="div-main-general-section-information-platform">
+                    <div class="div-main-general-section-information-platform__content">
+                        <h2 class="div-main-general-section-information-platform__title">Bose AR</h2>
+                        <div class="div-main-general-section-information-platform__osnova-content">
+                            <h4 class="div-main-general-section-information-platform__osnova-content-title">Brand name
+                                technology</h4>
+                            <p class="div-main-general-section-information-platform__osnova-content-text">Bose AR is a
+                                unique audio platform
+                                augmented reality, that opens before you new facets of sound. It allows you
+                                to stay connected to the real world and immerse yourself in the virtual universe
+                                at the same time.</p>
+                        </div>
+                    </div>
+                    <img class="part-img-section-information-platform" src="./img/woomen-in-headephons.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="section-advantages">
+            <div class="container-fluid">
+                <div class="div-main-general-section-advantages">
+                    <img class="part-img-section-advantages" src="./img/headephones.png" alt="">
+                    <div class="div-main-general-section-advantages__div-content">
+                        <h2>Guarantees</h2>
+                        <div class="div-main-general-section-advantages__div-content-part-top">
+                            <span><img src="./img/Ellipse.png" alt=""></span>
+                            <h4>90 Day Money Back Guarantee</h4>
+                            <p>If you are not 100% satisfied with a product, you can return it back for a full refund.
+                            </p>
+                        </div>
+                        <div class="div-main-general-section-advantages__div-content-part-bottom">
+                            <span><img src="./img/Ellipse.png" alt=""></span>
+                            <h4>1 year warranty</h4>
+                            <p>Regardless of your country of residence, if your headphones are broken, we will send you
+                                new ones.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-history">
+            <div class="container-fluid">
+                <div class="div-main-general-section-history">
+                    <div class="div-main-general-section-history__div-part-top">
+                        <h2 class="div-main-general-section-history__div-part-top-title">brand creation history</h2>
+                        <div class="div-main-general-section-history__div-part-top-text">
+                            <p class="div-main-general-section-history__div-part-top-text-start">The history of Bose
+                                Corporation
+                                began
+                                with disappointment. In 1956, MIT graduate student
+                                Amar Bose bought one of the best stereo systems at the time for his home. After a few
+                                minutes of listening to the audio recording, his bewilderment turned to disappointment.
+                            </p>
+                            <p class="div-main-general-section-history__div-part-top-text-start">From Amar's point of
+                                view, the
+                                sound
+                                was so flat and unnatural that it was better not to
+                                listen to the music at all than to listen to it in such a distorted form.</p>
+                        </div>
+                    </div>
+                    <div class="div-main-general-section-history__div-part-top">
+                        <img class="part-end-section-history" src="./img/mens.png" alt="">
+                        <p class="div-main-general-section-history__div-part-top-text">Bose's frustration grew into a
+                            firm
+                            determination to build audio equipments that would
+                            reproduce sound
+                            with impeccable accuracy and naturalness</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-developer">
+            <div class="container">
+                <div class="div-main-general-section-developer">
+                    <img class="div-main-general-section-developer__img" src="./img/men.png" alt="">
+                    <div class="div-main-general-section-developer__osnava-content">
+                        <img class="div-main-general-section-developer__osnava-content-img" src="./img/img-skobka.png"
+                            alt="">
+                        <h4 class="div-main-general-section-developer__osnava-content-titel">Never stop dreaming. Always
+                            dream of
+                            the best, and think about how to achieve it.</h4>
+                        <p class="div-main-general-section-developer__osnava-content-text">Amar Bose is a company
+                            founder</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-video">
+            <div class="cotainer-fluid">
+                <h2 class="div-main-general-section-video__div-content-title-top">reviews</h2>
+                <div class="div-main-general-section-video">
+                    <div class="swiper swiper-width">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-position"><iframe
+                                    class="div-main-general-section-video__video-start" width="920" height="315"
+                                    src="https://www.youtube.com/embed/VqP11Ma_2Fk?si=wn8tdtMdzUVxUb8g"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                            <div class="swiper-slide swiper-position"><iframe
+                                    class="div-main-general-section-video__video-middle" width="920" height="315"
+                                    src="https://www.youtube.com/embed/BUyLpf-u97Y?si=lnjXL5AKw8wF28zm"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                            <div class="swiper-slide swiper-position"><iframe
+                                    class="div-main-general-section-video__video-end" width="920" height="315"
+                                    src="https://www.youtube.com/embed/NgtznBDFRUo?si=u22JYnhznf6ab97v"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        </div>
+                    </div>
+                    <div class="div-main-general-section-video__div-content">
+                        <h2 class="div-main-general-section-video__div-content-title">reviews</h2>
+                        <div class="div-main-general-section-video__div-content-text">
+                            <a class="div-main-general-section-video__div-content-text-link"
+                                href="https://www.youtube.com/watch?v=VqP11Ma_2Fk&ab_channel=Bose">Bose Сorporation</a>
+                            <p class="div-main-general-section-video__div-content-text-text">Critically acclaimed for
+                                their
+                                powerful noise cancelling, astonishing sound, and
+                                unrivaled voice pickup, Bose Noise Cancelling Headphones 700 help turn any space into
+                                the perfect place to listen to music, get work done, or just shut out the world for a
+                                few moments and relax. </p>
+                        </div>
+                        <div class="swiper-button-section-video">
+                            <div class="swiper-button-next posishion-video-cancel">
+                                <p class="div-main-general-section-video__div-content-text-link">1-</p>
+                            </div>
+                            <div class="swiper-button-next posishion-video-cancel">
+                                <p class="div-main-general-section-video__div-content-text-link">2-</p>
+                            </div>
+                            <div class="swiper-button-next posishion-video-cancel">
+                                <p class="div-main-general-section-video__div-content-text-link">3-</p>
+                            </div>
+                            <div class="swiper-button-next posishion-video-cancel">
+                                <p class="div-main-general-section-video__div-content-text-link">4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-question">
+            <div class="container section-question-center">
+                <div class="div-main-general-section-question">
+                    <div>
+                        <h2 class="div-main-general-section-question__title">FAQ</h2>
+                        <div class="div-main-general-section-question__osnova-content">
+                            <div class="div-main-general-section-question__div-text">
+                                <h4 class="div-main-general-section-question__div-text-title">01
+                                    How to pair with a mobile device?</h4>
+                                <button class="div-main-general-section-question__button">?</button>
+                            </div>
+                            <div class="div-main-general-section-question__div-text">
+                                <h4 class="div-main-general-section-question__div-text-title">02
+                                    What is the wireless range of the Bose NC 700?</h4>
+                                <button class="div-main-general-section-question__button">?</button>
+                            </div>
+                            <div class="div-main-general-section-question__div-text">
+                                <h4 class="div-main-general-section-question__div-text-title">03
+                                    How do I fold the Bose NC 700 headphones for storage?</h4>
+                                <button class="div-main-general-section-question__button">?</button>
+                            </div>
+                            <div class="div-main-general-section-question__div-text">
+                                <h4 class="div-main-general-section-question__div-text-title">04
+                                    Does the guarantee work internationally?</h4>
+                                <button class="div-main-general-section-question__button">?</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-prise">
+            <div class="container-fluid">
+                <div class="div-main-general-section-prise">
+                    <div class="div-main-general-section-prise__content">
+                        <div class="div-main-general-section-prise__div-part-title">
+                            <h2 class="div-main-general-section-prise__title">bose nc 700</h2>
+                            <div class="div-main-general-section-prise__div-part-title-img">
+                                <div class="swiper-button-prev posishion-ultra"><img src="./img/Group-blak.png" alt="">
+                                </div>
+                                <div class="swiper-button-next posishion-ultra"> <img src="./img/Group-wight.png"
+                                        alt=""></div>
+                            </div>
+                        </div>
+                        <div class="div-main-general-section-prise__div-part-description">
+                            <div class="div-main-general-section-prise__div-part-description-text">
+                                <p>Availability in stores</p>
+                                <img src="./img/strilochka.png" alt="">
+                            </div>
+                            <div class="div-main-general-section-prise__div-part-description-text">
+                                <p>Characteristics</p>
+                                <img src="./img/strilochka.png" alt="">
+                            </div>
+                            <div class="div-main-general-section-prise__div-part-description-text-end">
+                                <p>Payment and delivery methods</p>
+                                <img src="./img/strilochka.png" alt="">
+                            </div>
+                        </div>
+                        <div class="div-main-general-section-prise__div-part-end">
+                            <h2 class="div-main-general-section-prise__div-part-end-text">14 999 UAH</h2>
+                            <button class="div-main-general-section-prise__div-part-end-button">order</button>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-width-section-prise">
+                        <h2 class="div-main-general-section-prise__title-end">bose nc 700</h2>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="swiper-slide-img-prise" src="./img/blake-headephons.png" alt=""></div>
+                            <div class="swiper-slide"><img class="swiper-slide-img-prise" src="./img/wight-headephons.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+                <img class="big-img" src="./img/img-group.png" alt="">
+            </div>
+        </section>
+        <section class="section-end">
+            <div class="container">
+                <div class="div-main-general-section-end">
+                    <div class="div-main-general-section-end__div-text">
+                        <h2>Feedback</h2>
+                        <h4 class="div-main-general-section-end__div-text-h-midlle">We'll help you find the right
+                            headphones
+                            for
+                            you.</h4>
+                    </div>
+                    <div class="div-main-general-section-end__osnova-content">
+                        <div class="div-main-general-section-end__div-input">
+                            <input class="div-main-general-section-end__div-input-input-start" type="text"
+                                placeholder="Your name">
+                            <input class="div-main-general-section-end__div-input-input-start" type="text"
+                                placeholder="Your e-mail">
+                            <input class="div-main-general-section-end__div-input-input-end" type="text"
+                                placeholder="Send us a message">
+                        </div>
+                        <div class="div-main-general-section-end__div-galochka">
+                            <input id="user-privasy" class="user-privacy visually-hidden" type="checkbox"
+                                name="user-privacy">
+                            <label for="user-privasy" class="modal-label modal-label-flex">
+                                <span class="span-user-privasy"><svg class="icon icon-icons">
+                                        <use xlink:href="/img/sprite.svg#icon-icons"></use>
+                                    </svg></span>
+                                <div class="div-main-general-section-end__div-galochka-flex-link">
+                                    <p class="div-main-general-section-end__div-galochka-flex-link-text">I agree to the</p>
+                                    <a class="div-main-general-section-end__div-galochka-link" href="">privacy
+                                        policy</a>
+                                </div>
+                            </label>
+                        </div>
+                        <span>
+                            <button class="div-main-general-section-end__button">send</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="containre">
+            <div class="div-general-footer">
+                <div class="div-general-footer__div-content">
+                    <div class="div-general-footer__div-content-div-start">
+                        <a href="">Characteristics</a>
+                        <a href="">History</a>
+                        <a href="">Reviews</a>
+                    </div>
+                    <div class="div-general-footer__div-content-div-end">
+                        <a href="">Payment and delivery</a>
+                        <a href="">Store addresses</a>
+                        <a href="">FAQ</a>
+                    </div>
+                </div>
+                <p class="div-general-footer__text">8 (800) 111-11-11</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script type="module" src="/src/main.js"></script>
+    <script src="./js/script.js"></script>
+</body>
 
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
-  </body>
 </html>
