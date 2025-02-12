@@ -6,7 +6,7 @@
     &__div-text {
         display: flex;
         justify-content: space-between;
-        width: 726px;
+        width: 1059px;
         padding: 0px 0px 24px;
         border-bottom: 2px solid rgb(36, 34, 34);
     }
@@ -38,6 +38,12 @@
 .section-question-center {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    .div-main-general-section-question__div-text {
+        width: 800px;
+    }
 }
 
 @media (max-width: 768px) {

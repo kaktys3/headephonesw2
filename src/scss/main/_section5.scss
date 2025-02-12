@@ -16,18 +16,14 @@
     .div-main-general-section-text__div-text {
         width: 294px;
     }
-
-    .div-main-general-section-functionality {
-        align-items: start;
-        padding: 170px 0px 170px 45px;
-    }
 }
 
 @media (max-width: 768px) {
     .div-main-general-section-text__div-text {
         width: 204px;
     }
-}    .div-main-general-section-functionality {
-    align-items: start;
-    padding: 170px 0px 170px 45px;
-}
+
+    .div-main-general-section-text {
+        padding: 50px 0px 100px 0px;
+    }
+}    
