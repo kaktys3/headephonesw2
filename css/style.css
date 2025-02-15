@@ -2,6 +2,7 @@
   display: flex;
   gap: 77px;
 }
+
 .nav__link {
   font-weight: 400;
   font-size: 16px;
@@ -35,16 +36,19 @@
     gap: 24px;
     display: none;
   }
+
   .div-header-general-modal-button-start {
     display: block;
     background-color: rgb(25, 25, 25);
     border: 0px;
   }
+
   .div-header-general-modal-button-end {
     display: none;
     background-color: rgb(25, 25, 25);
     border: 0px;
   }
+
   .div-header-general-end {
     display: flex;
     align-items: center;
@@ -52,6 +56,7 @@
     padding: 43px 0px 52px;
     width: 786px;
   }
+
   .div-header-general-start {
     display: flex;
     justify-content: space-between;
@@ -61,6 +66,7 @@
     width: 1280px;
   }
 }
+
 @media (max-width: 768px) {
   .div-header-general-end {
     display: flex;
@@ -69,10 +75,12 @@
     padding: 43px 0px 52px;
     width: 480px;
   }
+
   .div-header-general-start {
     padding: 0px 0px 51px;
   }
 }
+
 .div-header-general-modal-button-img {
   background-color: black;
   border: 0px;
@@ -85,16 +93,20 @@
     width: 280px;
     padding: 30px 0px;
   }
+
   .part-end-section-history {
     width: 280px;
     height: 251px;
   }
+
   .logo {
     width: 100px;
   }
+
   .div-header-general-start {
     padding: 0px;
   }
+
   .close-menu {
     background: none;
     border: none;
@@ -103,9 +115,11 @@
     cursor: pointer;
     align-self: flex-end;
   }
+
   .logo {
     width: 100px;
   }
+
   .close-menu {
     background: none;
     border: none;
@@ -115,38 +129,43 @@
     align-self: flex-end;
     margin-right: 20px;
   }
+
   .div-header-general {
     display: flex;
     justify-content: space-between;
   }
 }
+
 .div-general-footer {
   display: flex;
   justify-content: center;
   gap: 180px;
   padding: 0px 0px 74px;
 }
+
 .div-general-footer__div-content {
   display: flex;
   gap: 50px;
 }
+
 .div-general-footer__div-content-div-start {
   display: flex;
   gap: 50px;
 }
+
 .div-general-footer__div-content-div-end {
   display: flex;
   gap: 50px;
 }
 
-.div-general-footer__div-content-div-start > a {
+.div-general-footer__div-content-div-start>a {
   font-weight: 400;
   font-size: 16px;
   line-height: 125%;
   color: rgba(255, 255, 255, 0.3);
 }
 
-.div-general-footer__div-content-div-end > a {
+.div-general-footer__div-content-div-end>a {
   font-weight: 400;
   font-size: 16px;
   line-height: 125%;
@@ -158,58 +177,72 @@
     flex-direction: column;
     gap: 24px;
   }
+
   .div-general-footer__div-content-div-end {
     flex-direction: column;
     gap: 24px;
   }
+
   .div-general-footer {
     gap: 145px;
     align-items: end;
   }
+
   .div-general-footer__div-content {
     gap: 139px;
   }
 }
+
 @media (max-width: 768px) {
   .div-general-footer__div-content {
     gap: 80px;
   }
+
   .div-general-footer {
     gap: 80px;
   }
 }
+
 @media (max-width: 480px) {
   .div-general-footer {
     flex-direction: column;
     align-items: start;
     gap: 52px;
   }
+
   .div-general-footer__div-content {
     gap: 45px;
   }
+
   .div-general-footer__div-content-div-end {
     align-items: end;
   }
+
   footer {
     display: flex;
     justify-content: center;
   }
 }
+
 .div-main-general-section-order {
   display: flex;
   justify-content: end;
 }
+
 .div-main-general-section-order__div-text-text-start {
   width: 300px;
 }
+
 .div-main-general-section-order__div-text-text-end {
   width: 150px;
 }
+
 .div-main-general-section-order__div-text {
   display: flex;
   flex-direction: column;
   gap: 36px;
 }
+
 .div-main-general-section-order__div-text-and-button-button {
   font-weight: 600;
   font-size: 20px;
@@ -220,6 +253,7 @@
   background: #DF3D3A;
   border: 0px;
 }
+
 .div-main-general-section-order__div-text-and-button {
   display: flex;
   flex-direction: column;
@@ -239,96 +273,118 @@ h1 {
   .part-img-section-order {
     width: 480px;
   }
+
   .div-main-general-section-order__div-text-and-button-button {
     padding: 22px 122px;
   }
 }
+
 @media (max-width: 1024px) {
   .part-img-section-order {
     width: 354px;
     height: 394px;
   }
+
   .div-main-general-section-order {
     gap: 65px;
   }
+
   .div-main-general-section-order__div-text-and-button {
     padding: 70px 0px 0px 0px;
     gap: 40px;
   }
+
   .div-main-general-section-order__div-text {
     gap: 16px;
   }
 }
+
 @media (max-width: 768px) {
   .part-img-section-order {
     width: 220px;
     height: 324px;
   }
+
   .div-main-general-section-order {
     gap: 25px;
   }
+
   .div-main-general-section-order__div-text-and-button-button {
     padding: 22px 60px;
   }
+
   .div-main-general-section-order__div-text-text-start {
     width: 150px;
   }
 }
+
 @media (max-width: 480px) {
   .div-main-general-section-order__div-text-text-end {
     width: 93px;
     font-size: 14px;
   }
+
   .div-main-general-section-order__div-text-and-button h1 {
     font-size: 34px;
   }
+
   .div-main-general-section-order__div-text-and-button-button {
     padding: 19px 118px;
     font-size: 16px;
   }
+
   .part-img-section-order {
     width: 280px;
     height: 240px;
   }
+
   .div-main-general-section-order {
     flex-direction: column;
     gap: 32px;
   }
+
   .div-main-general-section-order__div-text-and-button {
     gap: 32px;
     padding: 32px 0px 0px;
   }
+
   .section-order {
     display: flex;
     justify-content: center;
   }
 }
+
 .div-main-general-section-description {
   display: flex;
   gap: 100px;
 }
+
 .div-main-general-section-description__div-text-bottom-half {
   width: 390px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .div-main-general-section-description__div-text-top-half {
   width: 390px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .div-main-general-section-description__div-text-osnova {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
+
 .div-main-general-section-description__div-text {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
+
 .div-main-general-section-description__div-text-title {
   width: 450px;
 }
@@ -342,74 +398,92 @@ h1 {
     width: 480px;
   }
 }
+
 @media (max-width: 1024px) {
   .part-img-section-description {
     width: 354px;
     height: 540px;
   }
+
   .div-main-general-section-description__div-text-top-half,
   .div-main-general-section-description__div-text-bottom-half {
     width: 244px;
   }
+
   .div-main-general-section-description__div-text-title {
     width: 200px;
   }
 }
+
 @media (max-width: 768px) {
   .part-img-section-description {
     width: 240px;
     height: 450px;
   }
+
   .div-main-general-section-description {
     gap: 40px;
   }
+
   .div-main-general-section-description__div-text-top-half,
   .div-main-general-section-description__div-text-bottom-half {
     width: 170px;
   }
+
   .div-main-general-section-description__div-text {
     gap: 20px;
   }
+
   .div-main-general-section-description__div-text-title {
     width: 200px;
   }
+
   .section-description {
     padding: 100px 0px;
   }
 }
+
 @media (max-width: 480px) {
   .part-img-section-description {
     width: 280px;
     height: 293px;
   }
+
   .div-main-general-section-description {
     flex-direction: column-reverse;
   }
+
   .div-main-general-section-description__div-text-title {
     font-size: 24px;
     line-height: 120%;
     letter-spacing: 2%;
   }
+
   .div-main-general-section-description {
     gap: 32px;
   }
+
   .div-main-general-section-description__div-text {
     gap: 32px;
   }
+
   .div-main-general-section-description__div-text-osnova {
     gap: 24px;
   }
+
   .div-main-general-section-description__div-text-top-half,
   .div-main-general-section-description__div-text-bottom-half {
     gap: 16px;
     width: 230px;
   }
+
   .section-description {
     display: flex;
     justify-content: center;
     padding: 52px 0px;
   }
 }
+
 .div-main-general-section-functionality {
   display: flex;
   flex-direction: column;
@@ -417,27 +491,33 @@ h1 {
   padding: 170px 0px;
   align-items: center;
 }
+
 .div-main-general-section-functionality__title {
   padding: 0px 230px 0px 0px;
 }
+
 .div-main-general-section-functionality__div-content-text-left-half {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .div-main-general-section-functionality__div-content-text-left-half-img {
   height: 13px;
 }
+
 .div-main-general-section-functionality__div-content-text-left {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .div-main-general-section-functionality__div-content-text-right {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .div-main-general-section-functionality__div-content {
   display: flex;
   gap: 220px;
@@ -448,49 +528,60 @@ h1 {
     flex-direction: column;
     gap: 16px;
   }
+
   .div-main-general-section-functionality__title {
     padding: 0px;
   }
+
   .div-main-general-section-functionality {
     align-items: start;
     padding: 170px 0px 170px 45px;
   }
 }
+
 @media (max-width: 768px) {
   .div-main-general-section-functionality {
     align-items: start;
     padding: 0px 0px 100px 45px;
   }
 }
+
 @media (max-width: 480px) {
   .div-main-general-section-functionality {
     align-items: start;
     padding: 0px 0px 50px 5px;
     gap: 32px;
   }
+
   .div-main-general-section-functionality__title {
     font-size: 24px;
   }
+
   .div-main-general-section-functionality__div-content-text-left,
   .div-main-general-section-functionality__div-content-text-right {
     gap: 15px;
   }
+
   .div-main-general-section-functionality__div-content-text-left-half p {
     font-size: 14px;
     line-height: 125%;
   }
+
   .div-main-general-section-functionality__div-content-text-left-half {
     gap: 24px;
   }
 }
+
 .div-main-general-section-img {
   display: flex;
   flex-direction: column;
   align-items: end;
 }
+
 .div-main-general-section-img__title {
   padding: 0px 80px 50px 0px;
 }
+
 .div-main-general-section-img__img {
   background-image: url(/img/image234.png);
   width: 100%;
@@ -501,12 +592,14 @@ h1 {
     font-size: 40px;
   }
 }
+
 @media (max-width: 768px) {
   .div-main-general-section-img__title {
     font-size: 20px;
     padding: 0px 40px 30px 0px;
   }
 }
+
 @media (max-width: 480px) {
   .div-main-general-section-img__title {
     font-size: 24px;
@@ -517,16 +610,19 @@ h1 {
     text-transform: uppercase;
     padding: 0px 0px 30px 0px;
   }
+
   .div-main-general-section-img {
     align-items: center;
   }
 }
+
 .div-main-general-section-text {
   display: flex;
   justify-content: center;
   gap: 40px;
   padding: 50px 0px 170px 0px;
 }
+
 .div-main-general-section-text__div-text {
   display: flex;
   flex-direction: column;
@@ -539,50 +635,61 @@ h1 {
     width: 294px;
   }
 }
+
 @media (max-width: 768px) {
   .div-main-general-section-text__div-text {
     width: 204px;
   }
+
   .div-main-general-section-text {
     padding: 50px 0px 100px 0px;
   }
 }
+
 @media (max-width: 480px) {
   .div-main-general-section-text__div-text h4 {
     font-size: 20px;
     line-height: 125%;
   }
+
   .div-main-general-section-text__div-text p {
     font-size: 14px;
     line-height: 125%;
   }
+
   .div-main-general-section-text {
     flex-direction: column;
     align-items: center;
   }
+
   .div-main-general-section-text__div-text {
     gap: 16px;
     width: 280px;
   }
+
   .div-main-general-section-text {
     padding: 50px 0px 50px 0px;
   }
 }
+
 .div-main-general-section-information-platform {
   display: flex;
   justify-content: end;
   gap: 170px;
 }
+
 .div-main-general-section-information-platform__content {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
+
 .div-main-general-section-information-platform__osnova-content {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .div-main-general-section-information-platform__osnova-content-text {
   width: 300px;
 }
@@ -597,73 +704,90 @@ h1 {
     width: 500px;
   }
 }
+
 @media (max-width: 1024px) {
   .part-img-section-information-platform {
     width: 354px;
     height: 297px;
   }
+
   .div-main-general-section-information-platform {
     gap: 60px;
   }
 }
+
 @media (max-width: 768px) {
   .part-img-section-information-platform {
     width: 200px;
     height: 207px;
   }
+
   .div-main-general-section-information-platform__osnova-content-text {
     width: 180px;
   }
+
   .div-main-general-section-information-platform__content {
     gap: 30px;
   }
 }
+
 @media (max-width: 480px) {
   .div-main-general-section-information-platform {
     flex-direction: column;
     gap: 32px;
   }
+
   .part-img-section-information-platform {
     width: 280px;
     height: 253px;
   }
+
   .div-main-general-section-information-platform__title {
     font-size: 24px;
   }
+
   .div-main-general-section-information-platform__osnova-content-title {
     font-size: 20px;
   }
+
   .div-main-general-section-information-platform__osnova-content-text {
     font-size: 14px;
     line-height: 125%;
   }
+
   .div-main-general-section-information-platform__osnova-content {
     gap: 16px;
   }
+
   .div-main-general-section-information-platform__osnova-content-text {
     width: 220px;
   }
+
   .posishion-section-information-platform-main {
     display: flex;
     justify-content: center;
   }
 }
+
 .div-main-general-section-advantages {
   display: flex;
   gap: 130px;
   padding: 170px 0px;
 }
+
 .div-main-general-section-advantages__div-content {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
+
 .div-main-general-section-advantages__div-content-part-top {
   display: flex;
   flex-direction: column;
   gap: 24px;
   width: 330px;
 }
+
 .div-main-general-section-advantages__div-content-part-bottom {
   display: flex;
   flex-direction: column;
@@ -680,91 +804,113 @@ h1 {
     width: 209px;
     gap: 20px;
   }
+
   .div-main-general-section-advantages__div-content-part-bottom {
     width: 264px;
     gap: 20px;
   }
+
   .div-main-general-section-advantages__div-content {
     gap: 32px;
   }
+
   .div-main-general-section-advantages {
     gap: 60px;
   }
+
   .part-img-section-advantages {
     width: 354px;
   }
 }
+
 @media (max-width: 768px) {
   .part-img-section-advantages {
     width: 250px;
   }
+
   .div-main-general-section-advantages__div-content-part-bottom {
     width: 190px;
   }
+
   .div-main-general-section-advantages__div-content-part-top {
     width: 200px;
   }
+
   .div-main-general-section-advantages {
     padding: 100px 0px;
     gap: 40px;
   }
 }
+
 @media (max-width: 480px) {
   .div-main-general-section-advantages {
     padding: 52px 0px;
     flex-direction: column-reverse;
     gap: 32px;
   }
+
   .div-main-general-section-advantages__div-content {
     gap: 24px;
   }
-  .div-main-general-section-advantages__div-content-part-top > span > img {
+
+  .div-main-general-section-advantages__div-content-part-top>span>img {
     margin-bottom: 8px;
   }
-  .div-main-general-section-advantages__div-content-part-bottom > span > img {
+
+  .div-main-general-section-advantages__div-content-part-bottom>span>img {
     margin-bottom: 8px;
   }
+
   .div-main-general-section-advantages__div-content-part-bottom,
   .div-main-general-section-advantages__div-content-part-top {
     gap: 16px;
     width: 280px;
   }
+
   .part-img-section-advantages {
     width: 280px;
     height: 268px;
   }
+
   .section-advantages {
     display: flex;
     justify-content: center;
   }
-  .div-main-general-section-advantages__div-content-part-top > h4 {
+
+  .div-main-general-section-advantages__div-content-part-top>h4 {
     width: 152px;
   }
 }
+
 .div-main-general-section-history {
   display: flex;
   justify-content: end;
   gap: 150px;
 }
+
 .div-main-general-section-history__div-part-top {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
+
 .div-main-general-section-history__div-top-text {
   display: flex;
   flex-direction: column;
   gap: 74px;
 }
+
 .div-main-general-section-history__div-part-top-title {
   width: 200px;
 }
+
 .div-main-general-section-history__div-part-top-text {
   display: flex;
   width: 420px;
   flex-direction: column;
   gap: 74px;
 }
+
 .div-main-general-section-history__div-part-top-text-start {
   width: 400px;
 }
@@ -773,53 +919,66 @@ h1 {
   .div-main-general-section-history {
     gap: 100px;
   }
+
   .part-end-section-history {
     width: 500px;
   }
 }
+
 @media (max-width: 1024px) {
   .div-main-general-section-history__div-part-top-text-start {
     width: 254px;
   }
+
   .div-main-general-section-history__div-part-top-text {
     width: 244px;
   }
+
   .part-end-section-history {
     width: 354px;
     height: 524px;
   }
+
   .div-main-general-section-history {
     gap: 60px;
   }
 }
+
 @media (max-width: 768px) {
   .div-main-general-section-history__div-part-top-text-start {
     width: 180px;
   }
+
   .div-main-general-section-history__div-part-top-text {
     width: 180px;
   }
+
   .div-main-general-section-history {
     gap: 40px;
   }
+
   .part-end-section-history {
     width: 220px;
     height: 400px;
   }
+
   .div-main-general-section-history__div-part-top {
     gap: 30px;
   }
 }
+
 @media (max-width: 480px) {
   .div-main-general-section-history {
     flex-direction: column;
     gap: 32px;
   }
+
   .part-end-section-history {
     width: 280px;
     height: 251px;
   }
 }
+
 .div-main-general-section-developer {
   display: flex;
   align-items: end;
@@ -827,16 +986,19 @@ h1 {
   gap: 260px;
   padding: 0px 0px 170px 0px;
 }
+
 .div-main-general-section-developer__osnava-content {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
+
 .div-main-general-section-developer__osnava-content-img {
   width: 34px;
   height: 30px;
   padding: 0px 0px 18px 0px;
 }
+
 .div-main-general-section-developer__osnava-content-titel {
   width: 400px;
 }
@@ -847,85 +1009,105 @@ h1 {
     justify-content: normal;
     padding: 0px 0px 170px 45px;
   }
+
   .div-main-general-section-developer__osnava-content-titel {
     width: 280px;
   }
 }
+
 @media (max-width: 768px) {
   .div-main-general-section-developer__osnava-content-titel {
     width: 200px;
   }
+
   .div-main-general-section-developer {
     gap: 40px;
     padding: 0px 0px 100px 25px;
   }
+
   .div-main-general-section-developer__img {
     width: 200px;
   }
 }
+
 @media (max-width: 480px) {
   .div-main-general-section-developer__osnava-content-img {
     height: 25px;
     padding: 0px;
   }
+
   .div-main-general-section-developer__osnava-content-titel {
     font-size: 20px;
     line-height: 125%;
   }
+
   .div-main-general-section-developer__osnava-content-text {
     font-size: 14px;
     line-height: 125%;
   }
+
   .div-main-general-section-developer {
     align-items: start;
     flex-direction: column;
     gap: 32px;
     padding: 32px 0px;
   }
+
   .div-main-general-section-developer__osnava-content {
     gap: 20px;
   }
+
   .div-main-general-section-developer__img {
     width: 280px;
   }
 }
+
 .div-main-general-section-video {
   display: flex;
   gap: 150px;
 }
+
 .div-main-general-section-video__div-content {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
+
 .div-main-general-section-video__div-content-text {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 .div-main-general-section-video__div-content-text-text {
   width: 240px;
 }
+
 .div-main-general-section-video__div-content-text-link {
   color: #DF3D3A;
   font-size: 28px;
   display: flex;
 }
+
 .div-main-general-section-video__div-content-div-link-link {
   color: #DF3D3A;
 }
+
 .div-main-general-section-video__video-end {
   max-width: 1220px;
   height: 540px;
 }
+
 .div-main-general-section-video__video-middle {
   max-width: 1220px;
   height: 540px;
 }
+
 .div-main-general-section-video__video-start {
   width: 920;
   height: 540px;
 }
+
 .div-main-general-section-video__div-content-title-top {
   display: none;
 }
@@ -947,36 +1129,46 @@ h1 {
   .div-main-general-section-video {
     display: block;
   }
+
   .div-main-general-section-video__div-content-text-text {
     width: 360px;
   }
+
   .swiper-button-section-video {
     gap: 39px;
   }
+
   .div-main-general-section-video__video-middle {
     max-width: 648px;
   }
+
   .div-main-general-section-video__video-start {
     max-width: 648px;
   }
+
   .div-main-general-section-video__video-end {
     max-width: 648px;
   }
+
   .swiper-width {
     max-width: 1024px;
     height: 580px;
   }
+
   .div-main-general-section-video__div-content {
     margin: 0 auto;
     width: 400px;
   }
+
   .div-main-general-section-video__div-content-title-top {
     display: block;
     padding: 0px 0px 32px 60px;
   }
+
   .div-main-general-section-video__div-content-title {
     display: none;
   }
+
   .div-main-general-section-video__video-middle,
   .div-main-general-section-video__video-start,
   .div-main-general-section-video__video-end {
@@ -985,25 +1177,31 @@ h1 {
     margin: 0 auto;
   }
 }
+
 @media (max-width: 768px) {
+
   .div-main-general-section-video__video-middle,
   .div-main-general-section-video__video-start,
   .div-main-general-section-video__video-end {
     max-width: 440px;
     margin: 0 auto;
   }
+
   .div-main-general-section-video__div-content-text-text {
     width: 400px;
   }
+
   .div-main-general-section-video__div-content {
     width: 440px;
   }
 }
+
 .div-main-general-section-question {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .div-main-general-section-question__div-text {
   display: flex;
   justify-content: space-between;
@@ -1011,6 +1209,7 @@ h1 {
   padding: 0px 0px 24px;
   border-bottom: 2px solid rgb(36, 34, 34);
 }
+
 .div-main-general-section-question__button {
   color: white;
   border-radius: 100%;
@@ -1018,11 +1217,13 @@ h1 {
   padding: 11px 18px 11px 18px;
   background-color: rgb(50, 45, 45);
 }
+
 .div-main-general-section-question__osnova-content {
   display: flex;
   flex-direction: column;
   gap: 64px;
 }
+
 .div-main-general-section-question__title {
   padding: 0px 0px 50px;
 }
@@ -1041,34 +1242,42 @@ h1 {
     width: 800px;
   }
 }
+
 @media (max-width: 768px) {
   .div-main-general-section-question__div-text-title {
     font-size: 12px;
   }
+
   .div-main-general-section-question__div-text {
     width: 400px;
   }
 }
+
 @media (max-width: 480px) {
   .div-main-general-section-question__title {
     font-size: 24px;
     padding: 0px 0px 32px;
   }
+
   .div-main-general-section-question__div-text {
     display: flex;
     flex-direction: row;
   }
+
   .div-main-general-section-question__div-text h4 {
     font-size: 14px;
     width: 200px;
   }
+
   .div-main-general-section-question__div-text {
     width: 280px;
   }
+
   .div-main-general-section-question__osnova-content {
     gap: 24px;
   }
 }
+
 .div-main-general-section-prise {
   display: flex;
   justify-content: end;
@@ -1076,31 +1285,37 @@ h1 {
   padding: 170px 0px;
   position: relative;
 }
+
 .div-main-general-section-prise__div-part-title {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
+
 .div-main-general-section-prise__div-part-title-img {
   display: flex;
   gap: 70px;
   padding: 0px 0px 0px 20px;
 }
+
 .div-main-general-section-prise__div-part-description {
   display: flex;
   flex-direction: column;
   gap: 26px;
 }
+
 .div-main-general-section-prise__div-part-end {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
+
 .div-main-general-section-prise__content {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
+
 .div-main-general-section-prise__div-part-description-text {
   display: flex;
   justify-content: space-between;
@@ -1108,9 +1323,11 @@ h1 {
   border-top: 2px solid rgb(36, 35, 35);
   width: 400px;
 }
+
 .div-main-general-section-prise__div-part-end-text {
   color: #DF3D3A;
 }
+
 .div-main-general-section-prise__div-part-end-button {
   font-weight: 600;
   font-size: 20px;
@@ -1122,6 +1339,7 @@ h1 {
   width: 400px;
   border: 0px;
 }
+
 .div-main-general-section-prise__div-part-description-text-end {
   display: flex;
   justify-content: space-between;
@@ -1130,6 +1348,7 @@ h1 {
   border-bottom: 2px solid rgb(36, 35, 35);
   border-top: 2px solid rgb(36, 35, 35);
 }
+
 .div-main-general-section-prise__title-end {
   display: none;
 }
@@ -1147,66 +1366,81 @@ h1 {
     padding: 0px 0px 0px 30px;
     width: calc(100% - 60px);
   }
+
   .div-main-general-section-prise {
     flex-direction: column-reverse;
     align-items: center;
   }
+
   .div-main-general-section-prise__title {
     display: none;
   }
+
   .div-main-general-section-prise__title-end {
     display: block;
     margin: 0px 0px 32px;
   }
+
   .div-main-general-section-prise__div-part-description-text {
     width: 648px;
   }
+
   .div-main-general-section-prise__div-part-description-text-end {
     width: 648px;
   }
 }
+
 @media (max-width: 768px) {
   .div-main-general-section-prise {
     padding: 100px 0px;
     gap: 62px;
   }
+
   .div-main-general-section-prise__div-part-description-text,
   .div-main-general-section-prise__div-part-description-text-end {
     width: 480px;
   }
+
   .swiper-width-section-prise {
     max-width: 480px;
   }
+
   .swiper-slide-img-prise {
     width: 440px;
     margin: 0 auto;
   }
+
   .div-main-general-section-prise__title-end {
     margin: 0px 0px 32px 20px;
   }
 }
+
 @media (max-width: 480px) {
   .big-img {
     width: 280px;
-    height: 205px;
+
   }
 }
+
 .div-main-general-section-end {
   display: flex;
   justify-content: center;
   gap: 150px;
   padding: 170px 0px;
 }
+
 .div-main-general-section-end__div-text {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
+
 .div-main-general-section-end__osnova-content {
   display: flex;
   flex-direction: column;
   gap: 53px;
 }
+
 .div-main-general-section-end__button {
   background-color: rgb(25, 25, 25);
   border: 1px solid red;
@@ -1218,6 +1452,7 @@ h1 {
   padding: 22px 229px;
   margin: 33px 0px 0px;
 }
+
 .div-main-general-section-end__div-input-input-start {
   background-color: rgb(25, 25, 25);
   color: white;
@@ -1225,6 +1460,7 @@ h1 {
   border-bottom: 2px solid rgb(128, 110, 110);
   padding: 0px 277px 17px 0px;
 }
+
 .div-main-general-section-end__div-input-input-end {
   background-color: rgb(25, 25, 25);
   color: white;
@@ -1232,22 +1468,26 @@ h1 {
   border-bottom: 2px solid rgb(128, 110, 110);
   padding: 0px 192px 97px 0px;
 }
+
 .div-main-general-section-end__div-input {
   display: flex;
   flex-direction: column;
   gap: 42px;
   width: 510px;
 }
+
 .div-main-general-section-end__div-galochka-link {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: underline;
   padding: 4px 0px 0px 10px;
   font-size: 18px;
 }
+
 .div-main-general-section-end__div-galochka-flex-link {
   display: flex;
   gap: 2px;
 }
+
 .div-main-general-section-end__div-text-h-midlle {
   width: 370px;
 }
@@ -1269,7 +1509,7 @@ h1 {
   box-sizing: border-box;
 }
 
-.user-privacy:checked + .modal-label > .span-user-privasy {
+.user-privacy:checked+.modal-label>.span-user-privasy {
   background-color: white;
 }
 
@@ -1285,60 +1525,76 @@ h1 {
     gap: 52px;
     padding: 100px 45px 100px 45px;
   }
+
   .div-main-general-section-end__div-input {
     gap: 32px;
     width: 646px;
   }
+
   .div-main-general-section-end__div-text {
     gap: 32px;
   }
+
   .div-main-general-section-end__div-input-input-end {
     padding: 0px 192px 60px 0px;
   }
 }
+
 @media (max-width: 768px) {
   .div-main-general-section-end__div-input {
     width: 470px;
   }
+
   .div-main-general-section-end {
     padding: 100px 0px 100px 15px;
   }
+
   .div-main-general-section-end__div-galochka-flex-link-text {
     font-size: 18px;
   }
+
   .div-main-general-section-end__button {
     padding: 22px 200px;
   }
 }
+
 @media (max-width: 480px) {
   .div-main-general-section-end__div-input {
     width: 280px;
   }
+
   .div-main-general-section-end__button {
     padding: 20px 120px;
     margin: 0px;
   }
+
   .div-main-general-section-end__div-input-input-start {
     padding: 0px 196px 17px 0px;
   }
+
   .div-main-general-section-end__div-input-input-end {
     padding: 0px 137px 60px 0px;
   }
+
   .div-main-general-section-end {
     padding: 16px 0px 72px;
     gap: 40px;
   }
+
   .div-main-general-section-end__div-text-h-midlle {
     width: 280px;
     font-weight: 300;
   }
+
   .div-main-general-section-end__osnova-content {
     gap: 40px;
   }
+
   .div-main-general-section-end__div-galochka-link {
     padding: 0px 0px 0px 10px;
   }
 }
+
 p {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.8);
@@ -1387,35 +1643,44 @@ body {
     width: 300px;
   }
 }
+
 @media (max-width: 1024px) {
   h1 {
     font-size: 42px;
   }
+
   p {
     font-size: 16px;
   }
+
   h2 {
     font-size: 30px;
   }
+
   h4 {
     font-size: 20px;
   }
 }
+
 @media (max-width: 1024px) {
   p {
     font-size: 12px;
   }
+
   h2 {
     font-size: 22px;
   }
+
   h4 {
     font-size: 14px;
   }
+
   h1 {
     font-size: 30px;
     width: 200px;
   }
 }
+
 .active-end {
   display: none;
 }
@@ -1442,15 +1707,80 @@ body {
     top: 90px;
     height: 468px;
   }
+
   p {
     font-size: 14px;
     line-height: 125%;
   }
+
   h4 {
     font-size: 20px;
     line-height: 125%;
   }
+
   h2 {
     font-size: 24px;
   }
+
+
+  .div-main-general-section-history__div-part-top-title {
+    width: 124px;
+
+  }
+
+  .div-main-general-section-history__div-part-top {
+    margin-left: 18px;
+  }
+
+  .div-main-general-section-prise__div-part-end-text {
+    margin-left: 90px;
+    color: #DF3D3A;
+  }
+
+  .big-img {
+    padding: 0px 0px 0px 18px;
+  }
+
+  .div-main-general-section-prise__div-part-end-button {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: #DF3D3A;
+    padding: 22px 18px;
+    width: 280px;
+    border: 0px;
+  }
+
+  .div-main-general-section-prise__div-part-description-text,
+  .div-main-general-section-prise__div-part-description-text-end {
+    width: 280px;
+  }
+
+  .swiper-slide-img-prise {
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+
+  }
+
+  .div-main-general-section-prise__title-end {
+    margin: 0px 0px 32px 98px;
+  }
+
+  .div-main-general-section-video__div-content-text-text {
+    width: 258px;
+  }
+
+  .swiper-backface-hidden .swiper-slide {
+    width: 240px;
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.section-video{
+  margin-left: 18px;
+}
 }
