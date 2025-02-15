@@ -56,3 +56,41 @@
         gap: 30px;
     }
 }
+
+@media (max-width: 480px) {
+    .div-main-general-section-information-platform {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .part-img-section-information-platform {
+        width: 280px;
+        height: 253px;
+    }
+
+    .div-main-general-section-information-platform__title {
+        font-size: 24px;
+    }
+
+    .div-main-general-section-information-platform__osnova-content-title {
+        font-size: 20px;
+    }
+
+    .div-main-general-section-information-platform__osnova-content-text {
+        font-size: 14px;
+        line-height: 125%;
+    }
+
+    .div-main-general-section-information-platform__osnova-content {
+        gap: 16px;
+    }
+
+    .div-main-general-section-information-platform__osnova-content-text {
+        width: 220px;
+    }
+
+    .posishion-section-information-platform-main {
+        display: flex;
+        justify-content: center;
+    }
+}

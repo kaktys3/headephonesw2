@@ -59,3 +59,30 @@
         padding: 0px 0px 100px 45px;
     }
 }
+
+@media (max-width: 480px) {
+    .div-main-general-section-functionality {
+        align-items: start;
+        padding: 0px 0px 50px 5px;
+        gap: 32px;
+    }
+
+    .div-main-general-section-functionality__title {
+        font-size: 24px;
+    }
+
+    .div-main-general-section-functionality__div-content-text-left,
+    .div-main-general-section-functionality__div-content-text-right {
+        gap: 15px;
+    }
+
+
+    .div-main-general-section-functionality__div-content-text-left-half p {
+        font-size: 14px;
+        line-height: 125%;
+    }
+
+    .div-main-general-section-functionality__div-content-text-left-half {
+        gap: 24px;
+    }
+}
