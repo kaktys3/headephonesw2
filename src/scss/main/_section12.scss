@@ -134,3 +134,10 @@
         margin: 0px 0px 32px 20px;
     }
 }
+
+@media (max-width: 480px) {
+    .big-img {
+        width: 280px;
+        height: 205px;
+    }
+}

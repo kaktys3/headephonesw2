@@ -65,7 +65,7 @@
         height: 450px;
     }
 
-    .div-main-general-section-description  {
+    .div-main-general-section-description {
         gap: 40px;
     }
 
@@ -84,5 +84,46 @@
 
     .section-description {
         padding: 100px 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .part-img-section-description {
+        width: 280px;
+        height: 293px;
+    }
+
+    .div-main-general-section-description {
+        flex-direction: column-reverse;
+    }
+
+    .div-main-general-section-description__div-text-title {
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: 2%;
+    }
+
+    .div-main-general-section-description {
+        gap: 32px;
+    }
+
+    .div-main-general-section-description__div-text {
+        gap: 32px;
+    }
+
+    .div-main-general-section-description__div-text-osnova {
+        gap: 24px;
+    }
+
+    .div-main-general-section-description__div-text-top-half,
+    .div-main-general-section-description__div-text-bottom-half {
+        gap: 16px;
+        width: 230px;
+    }
+
+    .section-description {
+        display: flex;
+        justify-content: center;
+        padding: 52px 0px;
     }
 }

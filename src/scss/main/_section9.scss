@@ -48,3 +48,35 @@
         width: 200px;
     }
 }
+
+@media (max-width: 480px) {
+    .div-main-general-section-developer__osnava-content-img {
+        height: 25px;
+        padding: 0px;
+    }
+
+    .div-main-general-section-developer__osnava-content-titel {
+        font-size: 20px;
+        line-height: 125%;
+    }
+
+    .div-main-general-section-developer__osnava-content-text {
+        font-size: 14px;
+        line-height: 125%;
+    }
+
+    .div-main-general-section-developer {
+        align-items: start;
+        flex-direction: column;
+        gap: 32px;
+        padding: 32px 0px;
+    }
+
+    .div-main-general-section-developer__osnava-content {
+        gap: 20px;
+    }
+
+    .div-main-general-section-developer__img {
+        width: 280px;
+    }
+}
