@@ -1,3 +1,7 @@
+.div-main-general-section-history__div-part-top-text-start-end {
+  display: none;
+}
+
 .nav {
   display: flex;
   gap: 77px;
@@ -105,6 +109,7 @@
 
   .div-header-general-start {
     padding: 0px;
+    align-items: center;
   }
 
   .close-menu {
@@ -219,6 +224,27 @@
   }
 
   footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .div-main-general-section-history__div-part-top-text-start-end {
+    display: block;
+    width: 180px;
+  }
+
+  .div-main-general-section-history__div-part-top-text-start {
+    display: none;
+  }
+
+  .section-history {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-developer,
+  .section-prise,
+  .section-end {
     display: flex;
     justify-content: center;
   }
@@ -1734,6 +1760,10 @@ body {
 }
 
 @media (max-width: 480px) {
+  .section-functionality {
+    display: flex;
+  }
+  
   .active {
     top: 90px;
     height: 468px;
