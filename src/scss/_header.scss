@@ -17,10 +17,6 @@
     width: 1280px;
 }
 
-header {
-    background-color: black;
-}
-
 .container-pozishin-header {
     display: flex;
     justify-content: center;
@@ -43,13 +39,13 @@ header {
 
     .div-header-general-modal-button-start {
         display: block;
-        background-color: black;
+        background-color: rgb(25, 25, 25);
         border: 0px;
     }
 
     .div-header-general-modal-button-end {
         display: none;
-        background-color: black;
+        background-color: rgb(25, 25, 25);
         border: 0px;
     }
 
@@ -66,7 +62,7 @@ header {
         justify-content: space-between;
         align-items: start;
         flex-direction: column;
-        padding: 0px 45px 51px;
+        padding: 0px 10px 51px;
         width: 1280px;
     }
 }
@@ -79,9 +75,63 @@ header {
         padding: 43px 0px 52px;
         width: 480px;
     }
+
+    .div-header-general-start {
+        padding: 0px 0px 51px;
+    }
 }
 
 .div-header-general-modal-button-img {
     background-color: black;
     border: 0px;
+}
+
+@media (max-width: 480px) {
+    .div-header-general-end {
+        display: flex;
+        justify-content: space-between;
+        width: 280px;
+        padding: 30px 0px;
+    }
+
+    .part-end-section-history {
+        width: 280px;
+        height: 251px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .div-header-general-start {
+        padding: 0px;
+    }
+
+    .close-menu {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        align-self: flex-end;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .close-menu {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        align-self: flex-end;
+        margin-right: 20px;
+    }
+
+    .div-header-general {
+        display: flex;
+        justify-content: space-between;
+    }
 }

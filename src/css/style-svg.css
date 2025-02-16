@@ -4,16 +4,29 @@
   height: 29px;
   stroke-width: 0;
   stroke: currentColor;
-  fill: black;
+  fill: white;
 }
 
 .icon-circle {
   height: 36px;
   width: 36px;
+  fill: beige;
 }
 
 .icon-close {
   color: white;
   height: 28px;
   width: 28px;
+}
+
+@media (max-width: 480px) {
+  .icon-close {
+    height: 22px;
+    width: 22px;
+  }
+
+  .icon-circle {
+    height: 28px;
+    width: 28px;
+  }
 }

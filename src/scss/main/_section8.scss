@@ -82,3 +82,15 @@
         gap: 30px;
     }
 }
+
+@media (max-width: 480px) {
+    .div-main-general-section-history {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .part-end-section-history {
+        width: 280px;
+        height: 251px;
+    }
+}
